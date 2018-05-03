@@ -43,6 +43,10 @@
 		EDA791BD209AB488008A49BD /* LYBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B0209AB488008A49BD /* LYBaseCell.m */; };
 		EDA791BE209AB488008A49BD /* LYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B3209AB488008A49BD /* LYBaseModel.m */; };
 		EDA791BF209AB488008A49BD /* LYSellerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B7209AB488008A49BD /* LYSellerBaseVC.m */; };
+		EDA791C7209AB62A008A49BD /* LYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */; };
+		EDA791C8209AB62A008A49BD /* HCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791C6209AB62A008A49BD /* HCBaseRequest.m */; };
+		EDA791CB209AB642008A49BD /* LYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791CA209AB642008A49BD /* LYUser.m */; };
+		EDA791CF209AB670008A49BD /* HCCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791CE209AB670008A49BD /* HCCoreDataManager.m */; };
 		EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE347432092CBD6008B7F3A /* AppDelegate.m */; };
 		EDE3474C2092CBD6008B7F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474B2092CBD6008B7F3A /* Assets.xcassets */; };
 		EDE3474F2092CBD6008B7F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474D2092CBD6008B7F3A /* LaunchScreen.storyboard */; };
@@ -125,6 +129,14 @@
 		EDA791B6209AB488008A49BD /* LYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseModel.h; sourceTree = "<group>"; };
 		EDA791B7209AB488008A49BD /* LYSellerBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSellerBaseVC.m; sourceTree = "<group>"; };
 		EDA791B8209AB488008A49BD /* LYSellerBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSellerBaseVC.h; sourceTree = "<group>"; };
+		EDA791C3209AB62A008A49BD /* LYNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetWorkManager.h; sourceTree = "<group>"; };
+		EDA791C4209AB62A008A49BD /* HCBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseRequest.h; sourceTree = "<group>"; };
+		EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetWorkManager.m; sourceTree = "<group>"; };
+		EDA791C6209AB62A008A49BD /* HCBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseRequest.m; sourceTree = "<group>"; };
+		EDA791C9209AB642008A49BD /* LYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYUser.h; sourceTree = "<group>"; };
+		EDA791CA209AB642008A49BD /* LYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYUser.m; sourceTree = "<group>"; };
+		EDA791CD209AB670008A49BD /* HCCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCoreDataManager.h; sourceTree = "<group>"; };
+		EDA791CE209AB670008A49BD /* HCCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCoreDataManager.m; sourceTree = "<group>"; };
 		EDE3473F2092CBD6008B7F3A /* BaseOCIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseOCIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE347422092CBD6008B7F3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDE347432092CBD6008B7F3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -368,6 +380,45 @@
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
+		EDA791C0209AB5CB008A49BD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EDA791CC209AB649008A49BD /* CoreDataManager */,
+				EDA791C2209AB603008A49BD /* NetworkTool */,
+				EDA791C1209AB5F1008A49BD /* User */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EDA791C1209AB5F1008A49BD /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EDA791C9209AB642008A49BD /* LYUser.h */,
+				EDA791CA209AB642008A49BD /* LYUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EDA791C2209AB603008A49BD /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				EDA791C4209AB62A008A49BD /* HCBaseRequest.h */,
+				EDA791C6209AB62A008A49BD /* HCBaseRequest.m */,
+				EDA791C3209AB62A008A49BD /* LYNetWorkManager.h */,
+				EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		EDA791CC209AB649008A49BD /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDA791CD209AB670008A49BD /* HCCoreDataManager.h */,
+				EDA791CE209AB670008A49BD /* HCCoreDataManager.m */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		EDE347362092CBD6008B7F3A = {
 			isa = PBXGroup;
 			children = (
@@ -389,6 +440,7 @@
 		EDE347412092CBD6008B7F3A /* BaseOCIOS */ = {
 			isa = PBXGroup;
 			children = (
+				EDA791C0209AB5CB008A49BD /* Manager */,
 				EDA791AA209AB469008A49BD /* BaseClass */,
 				EDA791A9209AB42D008A49BD /* Macros */,
 				EDA79151209AA844008A49BD /* Tools */,
@@ -504,6 +556,7 @@
 				EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */,
 				EDA7919A209AB2CA008A49BD /* UIScreen+MKAddition.m in Sources */,
 				EDA791A2209AB2CA008A49BD /* NSArray+Log.m in Sources */,
+				EDA791C7209AB62A008A49BD /* LYNetWorkManager.m in Sources */,
 				EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */,
 				EDA791A3209AB2CA008A49BD /* MKAreaPickerVC.m in Sources */,
 				EDE347522092CBD6008B7F3A /* main.m in Sources */,
@@ -520,6 +573,7 @@
 				EDE347632092CD8A008B7F3A /* MeVC.m in Sources */,
 				EDA791BA209AB488008A49BD /* LYBaseCollectionView.m in Sources */,
 				EDA791BB209AB488008A49BD /* HCBaseButton.m in Sources */,
+				EDA791C8209AB62A008A49BD /* HCBaseRequest.m in Sources */,
 				EDA791BF209AB488008A49BD /* LYSellerBaseVC.m in Sources */,
 				EDA791A0209AB2CA008A49BD /* UIButton+MKAddition.m in Sources */,
 				EDA79198209AB2CA008A49BD /* UILabel+MKAddition.m in Sources */,
@@ -530,6 +584,8 @@
 				EDA7919E209AB2CA008A49BD /* NSObject+MKAddition.m in Sources */,
 				EDA79190209AB2CA008A49BD /* MKDatePickerVC.m in Sources */,
 				EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */,
+				EDA791CF209AB670008A49BD /* HCCoreDataManager.m in Sources */,
+				EDA791CB209AB642008A49BD /* LYUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
