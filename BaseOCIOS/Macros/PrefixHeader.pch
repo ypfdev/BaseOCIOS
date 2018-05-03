@@ -12,4 +12,212 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+//(开头)保证 #ifdef 中的宏定义只会在OC代码中被引用，防止导入C/C++代码或框架而出错
+#ifdef __OBJC__
+
+
+////调试时NSLog正常输出, 并输出行号
+//#ifdef DEBUG
+
+//#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+////发布后NSLog替换为空，失效
+
+//#else
+//#define NSLog(...)
+
+//#endif
+//******************************************************
+
+/**
+ 头文件
+ */
+#import <Masonry.h>
+#import "MKAdditions.h"
+
+//#import "LYNetWorkManager.h"//网络成改为这个 ////#import "HCBaseRequest.h"
+//#import "NSString+MD5.h"
+//#import "HCProgressHUD.h"
+//#import <YYModel.h>
+//#import "NSArray+Log.h"
+//#import <UIImageView+WebCache.h>
+//#import "UIView+Extension.h"
+//#include "LYUser.h"
+//#import "LYRefreshHeader.h"
+//#import "LYRefreshFooter.h"
+//#import "LYSellerBaseVC.h"
+//#import "LYBaseNavBarVC.h"
+//#import "LYSubmitButton.h"
+
+//**************************************
+
+
+//存放第三方相关的AppID和AppSecret
+//友盟分享Appkey
+#define UMengAppkey @"59b79ea7310c9356640001cc"
+//微信开发平台
+#define WeiXinAppID @"wxd9886a0f1e7e026b"
+#define WXAppSecret @"140dcf97c6ff0d23dca9d2421e7d5f9d"
+//QQ
+#define QQAppID @"1106323214"
+#define QQAppSecret @"6N4M7UK04vJwaJdh"
+//ShareSDK //已弃用,最新版mob直接在info中加key取值
+#define ShareAppKey @"1f0b17f35ff08"
+#define ShareAppSecret @"6ff966c9ac6d18d9240477dd9d997ce7"
+//高德地图id
+#define AMapKey @"28556019a11f1227b9b1c9a43efa2ad1"
+//bugly
+#define BuglyAppID @"c092f00d43"
+#define BuglyAppKey @"975d9d0a-a217-47ad-8863-caeceb342da1"
+//支付宝
+#define AliPayID @"2017081108149355"
+#define AliPayURLScheme @"puregarden"//scheme必须与info.plist的url type相同,同于支付后回到我们的app
+
+//极光推送
+#define JPushAppKey  @"63ed84d0ab6bea186bf57772"
+#define JPushSecret  @"50424466526766765fee5ad2"
+#ifdef DEBUG  //如果是开发版本返回0,如果是发布版本返回1
+#define IsProduction 0
+#else
+#define IsProduction 1
+#endif
+
+
+//控件尺寸
+#define PatitionRightHeaderCellHeight 36
+#define Height_Statusbar ([[UIApplication sharedApplication] statusBarFrame].size.height>20?44:20)
+#define Height_NavigationBar 44
+#define Height_Top (Height_Statusbar + Height_NavigationBar)
+#define Height_TabBar ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define Height_TabBarItem 48
+
+#define CARTVIEW_HEIGHT 46
+
+
+///////{随机色宏
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+///////}随机色宏
+
+////////{以下为home常用宏
+
+#define APPHeight [UIScreen mainScreen].bounds.size.height  ////App高度
+#define APPWidth [UIScreen mainScreen].bounds.size.width   ////App宽度
+
+#define WidthScale ([UIScreen mainScreen].bounds.size.width/375.0)   ////屏幕适配比例,因为设计以6为参考,所以除以375.5和SE=0.8533,6和7=1,6P和7P=1.104
+
+#define HeightNavigation 44   ////导航栏的高度
+#define MargeDefault 16*SizeScale   ////基本默认间距
+#define HeightRecyclePic 155.0*SizeScale    ///首页轮播图
+#define HeightClassification 90*SizeScale  ////分类导航高度
+#define HeightNearByGo 60*SizeScale  ////附近跳转高度
+#define OffLineitemH APPWidth/4.4     ////线下专区每个cell高度,原本是APPWidth/3.5todo
+#define WidthDefault 16*SizeScale  ////基本默认宽度
+#define HeightDefault 21*SizeScale  ////基本默认高度
+#define MargeGroup 10*SizeScale   ////tableView组之间灰色间隔
+#define Marge2 2*SizeScale   ////2的间隔
+#define Marge4 4*SizeScale   ////4的间隔
+#define Marge6 6*SizeScale   ////6的间隔
+#define Marge8 8*SizeScale   ////8的间隔
+#define Marge10 10*SizeScale   ////10的间隔
+#define Marge12 12*SizeScale   ////12的间隔
+#define Marge15 15*SizeScale   ////15的间隔
+#define Marge24 24*SizeScale   ////24的间隔
+#define Marge28 28*SizeScale   ////28的间隔
+#define HeightOffLineHeader 137*SizeScale   ////组头的高度
+#define HeightOffLineFooter 50*SizeScale    ////组尾的高度
+#define HeightStatusBar [[UIApplication sharedApplication] statusBarFrame].size.height    ////电池状态栏高度
+#define HeightLine 1*SizeScale    ////分割线高度
+#define HeightGoodsHeader APPWidth+(180*SizeScale)  ////商品简介头部的高度 APPWidth是轮播图的宽度,规定轮播图宽高相等
+#define HeightChannel 36*SizeScale     ////频道的高度
+#define HeightCartHeader 40    ///购物车组头高度
+#define HeightCartFooter 88    ///购物车组尾高度
+#define HeightCouponsCell 70    ///优惠券行高
+#define HeightDisclosureIndicator 10*SizeScale    ///cell的箭头高度
+#define Heightslider 3*SizeScale  //所有文字底部小滑块的高度
+#define HeightMMNeedAdImg 193*SizeScale    //妈咪必备中广告图片的高度
+#define HeightMMNeedCell 200*SizeScale    //妈咪必备中显示商品的cell高度
+#define WidthMMNeedCell 140*SizeScale    //妈咪必备中显示商品的cell宽度
+
+////////}以上为home常用宏
+
+////////{颜色宏
+
+/**
+ 颜色相关
+ */
+
+#define APP_COLOR [UIColor mk_colorWithHex:0xE51B56]
+#define APP_COLOR_BG [UIColor mk_colorWithRed:245 green:245 blue:245]
+#define NEARBY_BACKGROUNDCOLOR [UIColor mk_colorWithHex:0xF7F7F7]
+
+#define PATITION_BACKGROUNDCOLOR [UIColor mk_colorWithHex:0xF3F5F7]
+
+#define HCRANDOMCOLOR [UIColor mk_randomColor]
+
+#define ColorGrayBg [UIColor mk_colorWithHex:0xF5F5F5]
+//最浅的灰色,用于一般背景或组尾//数值越大颜色越浅
+//247一般用于tableview组间距的灰色
+#define ColorGray235 [UIColor mk_colorWithRed:235 green:235 blue:235]
+#define ColorGray184 [UIColor mk_colorWithRed:184 green:184 blue:184]
+#define ColorGray93 [UIColor mk_colorWithRed:93 green:93 blue:93]
+
+//暗红色字体,价钱等红色字体使用
+#define ColorDarkRed [UIColor mk_colorWithRed:229 green:36 blue:87]
+#define ColorRedSearchBarbackground [UIColor mk_colorWithHex:0xE51B56]
+#define ColorRedSearchBarTextField [UIColor mk_colorWithRed:222 green:90 blue:111]
+
+#define ColorWhite [UIColor whiteColor]
+
+//一般显示的黑色字体都是这个颜色Red:51 green:51 blue:51
+#define ColorBlackTitle [UIColor mk_colorWithHex:0x333333]
+//灰色字体颜色
+#define ColorGrayTitle [UIColor mk_colorWithHex:0x808080]
+#define ColorGrayContent [UIColor mk_colorWithHex:0x5F5D5D]
+#define ColorGrayWord [UIColor mk_colorWithHex:0x868687]
+//其他字体颜色
+#define ColorWord6 [UIColor mk_colorWithHex:0x666666]
+#define ColorWord9 [UIColor mk_colorWithHex:0x999999]
+//#define ColorWord0 [UIColor mk_colorWithHex:0x000000]
+#define ColorWord0 [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0]
+#define ColorGrayC [UIColor mk_colorWithHex:0xCCCCCC]
+#define ColorBlue [UIColor mk_colorWithHex:0x107CC4]
+
+//黄色按钮
+#define ColorYellowTitle [UIColor mk_colorWithHex:0xEEBE04]
+
+//灰色分隔符
+#define ColorGrayLine [UIColor mk_colorWithRed:247 green:247 blue:247]
+//相当于[UIColor mk_colorWithRed:247 green:247 blue:247]
+#define ColorGrayBackground [UIColor mk_colorWithHex:0xF6F6F6]
+
+//带有透明度的黑色,用于弹出一个控制器,控制器有一般是半透明黑色的时候,如城市选择器和添加到购物车的控制器
+#define ColorAlphaBlack [[UIColor blackColor]colorWithAlphaComponent:0.7f]
+
+////////}颜色宏
+
+////////{字体宏
+#define SizeScale ([UIScreen mainScreen].bounds.size.width/375.0)   /////屏幕比例,用于设置字体,因为设计以6为参考,所以除以375.5和SE=0.8533,6和7=1,6P和7P=1.104
+#define Font24 [UIFont systemFontOfSize:24*SizeScale]
+#define Font18 [UIFont systemFontOfSize:18*SizeScale]
+#define Font16 [UIFont systemFontOfSize:16*SizeScale]
+#define Font14 [UIFont systemFontOfSize:14*SizeScale]
+#define Font13 [UIFont systemFontOfSize:13*SizeScale]
+#define Font12 [UIFont systemFontOfSize:12*SizeScale]
+#define Font10 [UIFont systemFontOfSize:10*SizeScale]
+#define Font8 [UIFont systemFontOfSize:8*SizeScale]
+
+////////}字体宏
+
+//时间戳 得到的时间戳是毫秒
+#define INTERVAL_STRING [NSString stringWithFormat:@"%lf",[[NSDate date] timeIntervalSince1970] * 1000]
+
+//增加基础值,避免和其他控件的tag相同,取值判断的时候不容易出错
+#define BaseTagbtn 1000
+#define BaseTagImg 2000 //ImageView
+#define BaseTagLbl 3000 //标签
+#define BaseTagTF 4000  //文本框
+#define BaseTagView 5000
+//(结尾)保证 #ifdef 中的宏定义只会在OC代码中被引用，防止导入C/C++代码或框架而出错
+#endif
+
 #endif /* PrefixHeader_pch */
