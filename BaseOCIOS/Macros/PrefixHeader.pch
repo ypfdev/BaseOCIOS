@@ -16,32 +16,33 @@
 #ifdef __OBJC__
 
 
-////调试时NSLog正常输出, 并输出行号
-//#ifdef DEBUG
-
-//#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
-////发布后NSLog替换为空，失效
-
-//#else
-//#define NSLog(...)
-
-//#endif
 //******************************************************
+//调试时NSLog正常输出, 并输出行号
+#ifdef DEBUG
+
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+//发布后NSLog替换为空，失效
+
+#else
+#define NSLog(...)
+
+#endif
+//******************************************************
+
 
 /**
  头文件
  */
 #import <Masonry.h>
 #import "MKAdditions.h"
+//#import <YYModel.h>
 
 //#import "LYNetWorkManager.h"//网络成改为这个 ////#import "HCBaseRequest.h"
 //#import "NSString+MD5.h"
 //#import "HCProgressHUD.h"
-//#import <YYModel.h>
 //#import "NSArray+Log.h"
 //#import <UIImageView+WebCache.h>
 //#import "UIView+Extension.h"
-//#include "LYUser.h"
 //#import "LYRefreshHeader.h"
 //#import "LYRefreshFooter.h"
 //#import "LYSellerBaseVC.h"
@@ -217,6 +218,7 @@
 #define BaseTagLbl 3000 //标签
 #define BaseTagTF 4000  //文本框
 #define BaseTagView 5000
+
 //(结尾)保证 #ifdef 中的宏定义只会在OC代码中被引用，防止导入C/C++代码或框架而出错
 #endif
 

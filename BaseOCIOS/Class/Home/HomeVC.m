@@ -7,8 +7,7 @@
 //
 
 #import "HomeVC.h"
-#import <Masonry.h>
-#import "MKAdditions.h"
+#import "MKAreaPickerVC.h"
 
 @interface HomeVC ()
 
@@ -22,6 +21,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupUI];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    for (UIView *view in self.view.subviews) {
+        if ([view isKindOfClass:[UITabBar class]]) {
+            //此处注意设置 y的值 不要使用屏幕高度 - 49 ，因为还有tabbar的高度 ，用当前tabbarController的View的高度 - 49即可
+            view.frame = CGRectMake(view.frame.origin.x, self.view.bounds.size.height-49, view.frame.size.width, 49);
+        }
+    }
+    // 此处是自定义的View的设置 如果使用了约束 可以不需要设置下面,_bottomView的frame
+//    _bottomView.frame = self.tabBar.bounds;
+    
 }
 
 - (void)setupUI {
@@ -38,10 +50,20 @@
         make.width.mas_equalTo(100);
     }];
     [_testBtn setTitle:@"TestBtn" forState:UIControlStateNormal];
+    [_testBtn addTarget:self action:@selector(testBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
     _testBtn.layer.masksToBounds = YES;
     _testBtn.layer.cornerRadius = 10;
     _testBtn.layer.borderWidth = 1;
     _testBtn.layer.borderColor = UIColor.blackColor.CGColor;
+}
+
+- (void)testBtnClicked:(UIButton *)sender {
+    MKAreaPickerVC *targetVC = [[MKAreaPickerVC alloc]initWithNibName:@"MKAreaPickerVC" bundle:nil];
+    targetVC.view.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height - 49);
+    targetVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    [self presentViewController:targetVC animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

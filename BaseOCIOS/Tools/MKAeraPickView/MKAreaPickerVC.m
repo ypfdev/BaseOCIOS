@@ -8,6 +8,7 @@
 
 #import "MKAreaPickerVC.h"
 #import "ProvinceModel.h"
+#import <YYModel.h>
 
 @interface MKAreaPickerVC ()<UIPickerViewDataSource,UIPickerViewDelegate>
 
@@ -95,7 +96,7 @@
     
     [_btnBGView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self.view);
-        make.bottom.equalTo(_pickerView.mas_top);
+        make.bottom.equalTo(self->_pickerView.mas_top);
         make.height.mas_equalTo(APPWidth * 0.096);  //36
     }];
     

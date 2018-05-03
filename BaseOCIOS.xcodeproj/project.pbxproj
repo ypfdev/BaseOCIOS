@@ -15,7 +15,6 @@
 		EDA79191209AB2CA008A49BD /* MKDatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */; };
 		EDA79192209AB2CA008A49BD /* MKPickViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */; };
 		EDA79193209AB2CA008A49BD /* MKPickViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */; };
-		EDA79194209AB2CA008A49BD /* MKLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79163209AB2C9008A49BD /* MKLocationManager.m */; };
 		EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79167209AB2C9008A49BD /* UIImage+HCImage.m */; };
 		EDA79196209AB2CA008A49BD /* UIColor+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7916A209AB2C9008A49BD /* UIColor+MKAddition.m */; };
 		EDA79197209AB2CA008A49BD /* UIView+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7916D209AB2C9008A49BD /* UIView+MKAddition.m */; };
@@ -36,17 +35,6 @@
 		EDA791A6209AB2CA008A49BD /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79189209AB2CA008A49BD /* ProvinceModel.m */; };
 		EDA791A7209AB2CA008A49BD /* region.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA7918B209AB2CA008A49BD /* region.json */; };
 		EDA791A8209AB2CA008A49BD /* MKAreaPickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA7918C209AB2CA008A49BD /* MKAreaPickerVC.xib */; };
-		EDA791B9209AB488008A49BD /* LYBaseNavBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791AB209AB488008A49BD /* LYBaseNavBarVC.m */; };
-		EDA791BA209AB488008A49BD /* LYBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791AC209AB488008A49BD /* LYBaseCollectionView.m */; };
-		EDA791BB209AB488008A49BD /* HCBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791AE209AB488008A49BD /* HCBaseButton.m */; };
-		EDA791BC209AB488008A49BD /* LYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791AF209AB488008A49BD /* LYBaseTableView.m */; };
-		EDA791BD209AB488008A49BD /* LYBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B0209AB488008A49BD /* LYBaseCell.m */; };
-		EDA791BE209AB488008A49BD /* LYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B3209AB488008A49BD /* LYBaseModel.m */; };
-		EDA791BF209AB488008A49BD /* LYSellerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791B7209AB488008A49BD /* LYSellerBaseVC.m */; };
-		EDA791C7209AB62A008A49BD /* LYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */; };
-		EDA791C8209AB62A008A49BD /* HCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791C6209AB62A008A49BD /* HCBaseRequest.m */; };
-		EDA791CB209AB642008A49BD /* LYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791CA209AB642008A49BD /* LYUser.m */; };
-		EDA791CF209AB670008A49BD /* HCCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA791CE209AB670008A49BD /* HCCoreDataManager.m */; };
 		EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE347432092CBD6008B7F3A /* AppDelegate.m */; };
 		EDE3474C2092CBD6008B7F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474B2092CBD6008B7F3A /* Assets.xcassets */; };
 		EDE3474F2092CBD6008B7F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474D2092CBD6008B7F3A /* LaunchScreen.storyboard */; };
@@ -61,7 +49,6 @@
 		376900F29AF4AF0FE37CA406 /* Pods-BaseOCIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseOCIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseOCIOS/Pods-BaseOCIOS.release.xcconfig"; sourceTree = "<group>"; };
 		9AAE5E3DC19A5A8983EEF0D7 /* Pods-BaseOCIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseOCIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseOCIOS/Pods-BaseOCIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2BA27334771D5D50859149 /* libPods-BaseOCIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseOCIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED1FE0062092D68300306089 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EDA79153209AB2C9008A49BD /* MKQRCodeScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQRCodeScaner.h; sourceTree = "<group>"; };
 		EDA79154209AB2C9008A49BD /* MKPhotoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPhotoRecorder.h; sourceTree = "<group>"; };
 		EDA79155209AB2C9008A49BD /* MKMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMovieRecorder.h; sourceTree = "<group>"; };
@@ -74,8 +61,6 @@
 		EDA7915E209AB2C9008A49BD /* MKPickViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPickViewVC.h; sourceTree = "<group>"; };
 		EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPickViewVC.m; sourceTree = "<group>"; };
 		EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKPickViewVC.xib; sourceTree = "<group>"; };
-		EDA79162209AB2C9008A49BD /* MKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLocationManager.h; sourceTree = "<group>"; };
-		EDA79163209AB2C9008A49BD /* MKLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLocationManager.m; sourceTree = "<group>"; };
 		EDA79165209AB2C9008A49BD /* NSArray+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MKAddition.h"; sourceTree = "<group>"; };
 		EDA79166209AB2C9008A49BD /* NSString+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKAddition.h"; sourceTree = "<group>"; };
 		EDA79167209AB2C9008A49BD /* UIImage+HCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HCImage.m"; sourceTree = "<group>"; };
@@ -115,28 +100,7 @@
 		EDA7918A209AB2CA008A49BD /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
 		EDA7918B209AB2CA008A49BD /* region.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = region.json; sourceTree = "<group>"; };
 		EDA7918C209AB2CA008A49BD /* MKAreaPickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKAreaPickerVC.xib; sourceTree = "<group>"; };
-		EDA791AB209AB488008A49BD /* LYBaseNavBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseNavBarVC.m; sourceTree = "<group>"; };
-		EDA791AC209AB488008A49BD /* LYBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseCollectionView.m; sourceTree = "<group>"; };
-		EDA791AD209AB488008A49BD /* LYBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseTableView.h; sourceTree = "<group>"; };
-		EDA791AE209AB488008A49BD /* HCBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseButton.m; sourceTree = "<group>"; };
-		EDA791AF209AB488008A49BD /* LYBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseTableView.m; sourceTree = "<group>"; };
-		EDA791B0209AB488008A49BD /* LYBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseCell.m; sourceTree = "<group>"; };
-		EDA791B1209AB488008A49BD /* LYBaseNavBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseNavBarVC.h; sourceTree = "<group>"; };
-		EDA791B2209AB488008A49BD /* LYBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseCollectionView.h; sourceTree = "<group>"; };
-		EDA791B3209AB488008A49BD /* LYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseModel.m; sourceTree = "<group>"; };
-		EDA791B4209AB488008A49BD /* LYBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseCell.h; sourceTree = "<group>"; };
-		EDA791B5209AB488008A49BD /* HCBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseButton.h; sourceTree = "<group>"; };
-		EDA791B6209AB488008A49BD /* LYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseModel.h; sourceTree = "<group>"; };
-		EDA791B7209AB488008A49BD /* LYSellerBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSellerBaseVC.m; sourceTree = "<group>"; };
-		EDA791B8209AB488008A49BD /* LYSellerBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSellerBaseVC.h; sourceTree = "<group>"; };
-		EDA791C3209AB62A008A49BD /* LYNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetWorkManager.h; sourceTree = "<group>"; };
-		EDA791C4209AB62A008A49BD /* HCBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseRequest.h; sourceTree = "<group>"; };
-		EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetWorkManager.m; sourceTree = "<group>"; };
-		EDA791C6209AB62A008A49BD /* HCBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseRequest.m; sourceTree = "<group>"; };
-		EDA791C9209AB642008A49BD /* LYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYUser.h; sourceTree = "<group>"; };
-		EDA791CA209AB642008A49BD /* LYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYUser.m; sourceTree = "<group>"; };
-		EDA791CD209AB670008A49BD /* HCCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCoreDataManager.h; sourceTree = "<group>"; };
-		EDA791CE209AB670008A49BD /* HCCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCoreDataManager.m; sourceTree = "<group>"; };
+		EDA791D4209ABEA1008A49BD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EDE3473F2092CBD6008B7F3A /* BaseOCIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseOCIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE347422092CBD6008B7F3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDE347432092CBD6008B7F3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -250,7 +214,6 @@
 				EDA79182209AB2CA008A49BD /* MKAeraPickView */,
 				EDA79152209AB2C9008A49BD /* MKCameraTools */,
 				EDA79159209AB2C9008A49BD /* MKDatePicker */,
-				EDA79161209AB2C9008A49BD /* MKLocation */,
 				EDA7915D209AB2C9008A49BD /* MKPickView */,
 			);
 			path = Tools;
@@ -287,15 +250,6 @@
 				EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */,
 			);
 			path = MKPickView;
-			sourceTree = "<group>";
-		};
-		EDA79161209AB2C9008A49BD /* MKLocation */ = {
-			isa = PBXGroup;
-			children = (
-				EDA79162209AB2C9008A49BD /* MKLocationManager.h */,
-				EDA79163209AB2C9008A49BD /* MKLocationManager.m */,
-			);
-			path = MKLocation;
 			sourceTree = "<group>";
 		};
 		EDA79164209AB2C9008A49BD /* MKAdditions */ = {
@@ -354,7 +308,7 @@
 		EDA791A9209AB42D008A49BD /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				ED1FE0062092D68300306089 /* PrefixHeader.pch */,
+				EDA791D4209ABEA1008A49BD /* PrefixHeader.pch */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -362,20 +316,6 @@
 		EDA791AA209AB469008A49BD /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				EDA791B5209AB488008A49BD /* HCBaseButton.h */,
-				EDA791AE209AB488008A49BD /* HCBaseButton.m */,
-				EDA791B4209AB488008A49BD /* LYBaseCell.h */,
-				EDA791B0209AB488008A49BD /* LYBaseCell.m */,
-				EDA791B2209AB488008A49BD /* LYBaseCollectionView.h */,
-				EDA791AC209AB488008A49BD /* LYBaseCollectionView.m */,
-				EDA791B6209AB488008A49BD /* LYBaseModel.h */,
-				EDA791B3209AB488008A49BD /* LYBaseModel.m */,
-				EDA791B1209AB488008A49BD /* LYBaseNavBarVC.h */,
-				EDA791AB209AB488008A49BD /* LYBaseNavBarVC.m */,
-				EDA791AD209AB488008A49BD /* LYBaseTableView.h */,
-				EDA791AF209AB488008A49BD /* LYBaseTableView.m */,
-				EDA791B8209AB488008A49BD /* LYSellerBaseVC.h */,
-				EDA791B7209AB488008A49BD /* LYSellerBaseVC.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -383,40 +323,8 @@
 		EDA791C0209AB5CB008A49BD /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				EDA791CC209AB649008A49BD /* CoreDataManager */,
-				EDA791C2209AB603008A49BD /* NetworkTool */,
-				EDA791C1209AB5F1008A49BD /* User */,
 			);
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		EDA791C1209AB5F1008A49BD /* User */ = {
-			isa = PBXGroup;
-			children = (
-				EDA791C9209AB642008A49BD /* LYUser.h */,
-				EDA791CA209AB642008A49BD /* LYUser.m */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		EDA791C2209AB603008A49BD /* NetworkTool */ = {
-			isa = PBXGroup;
-			children = (
-				EDA791C4209AB62A008A49BD /* HCBaseRequest.h */,
-				EDA791C6209AB62A008A49BD /* HCBaseRequest.m */,
-				EDA791C3209AB62A008A49BD /* LYNetWorkManager.h */,
-				EDA791C5209AB62A008A49BD /* LYNetWorkManager.m */,
-			);
-			path = NetworkTool;
-			sourceTree = "<group>";
-		};
-		EDA791CC209AB649008A49BD /* CoreDataManager */ = {
-			isa = PBXGroup;
-			children = (
-				EDA791CD209AB670008A49BD /* HCCoreDataManager.h */,
-				EDA791CE209AB670008A49BD /* HCCoreDataManager.m */,
-			);
-			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
 		EDE347362092CBD6008B7F3A = {
@@ -550,20 +458,16 @@
 				EDA79192209AB2CA008A49BD /* MKPickViewVC.m in Sources */,
 				EDA7919F209AB2CA008A49BD /* NSAttributedString+MKAdditon.m in Sources */,
 				EDA791A4209AB2CA008A49BD /* CityModel.m in Sources */,
-				EDA791B9209AB488008A49BD /* LYBaseNavBarVC.m in Sources */,
 				EDA791A5209AB2CA008A49BD /* DistrictModel.m in Sources */,
 				EDE3475D2092CD6F008B7F3A /* HomeVC.m in Sources */,
 				EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */,
 				EDA7919A209AB2CA008A49BD /* UIScreen+MKAddition.m in Sources */,
 				EDA791A2209AB2CA008A49BD /* NSArray+Log.m in Sources */,
-				EDA791C7209AB62A008A49BD /* LYNetWorkManager.m in Sources */,
 				EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */,
 				EDA791A3209AB2CA008A49BD /* MKAreaPickerVC.m in Sources */,
 				EDE347522092CBD6008B7F3A /* main.m in Sources */,
 				EDA79199209AB2CA008A49BD /* MKStandardClickAreaButton.m in Sources */,
 				EDE347602092CD7E008B7F3A /* CartVC.m in Sources */,
-				EDA791BD209AB488008A49BD /* LYBaseCell.m in Sources */,
-				EDA79194209AB2CA008A49BD /* MKLocationManager.m in Sources */,
 				EDA7919D209AB2CA008A49BD /* NSArray+MKAddition.m in Sources */,
 				EDA7919C209AB2CA008A49BD /* NSString+MKAddition.m in Sources */,
 				EDA791A1209AB2CA008A49BD /* UIViewController+MKAddition.m in Sources */,
@@ -571,21 +475,13 @@
 				EDA7918E209AB2CA008A49BD /* MKQRCodeScaner.m in Sources */,
 				EDA791A6209AB2CA008A49BD /* ProvinceModel.m in Sources */,
 				EDE347632092CD8A008B7F3A /* MeVC.m in Sources */,
-				EDA791BA209AB488008A49BD /* LYBaseCollectionView.m in Sources */,
-				EDA791BB209AB488008A49BD /* HCBaseButton.m in Sources */,
-				EDA791C8209AB62A008A49BD /* HCBaseRequest.m in Sources */,
-				EDA791BF209AB488008A49BD /* LYSellerBaseVC.m in Sources */,
 				EDA791A0209AB2CA008A49BD /* UIButton+MKAddition.m in Sources */,
 				EDA79198209AB2CA008A49BD /* UILabel+MKAddition.m in Sources */,
-				EDA791BE209AB488008A49BD /* LYBaseModel.m in Sources */,
 				EDA79196209AB2CA008A49BD /* UIColor+MKAddition.m in Sources */,
-				EDA791BC209AB488008A49BD /* LYBaseTableView.m in Sources */,
 				EDA7919B209AB2CA008A49BD /* UIImage+MKAddition.m in Sources */,
 				EDA7919E209AB2CA008A49BD /* NSObject+MKAddition.m in Sources */,
 				EDA79190209AB2CA008A49BD /* MKDatePickerVC.m in Sources */,
 				EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */,
-				EDA791CF209AB670008A49BD /* HCCoreDataManager.m in Sources */,
-				EDA791CB209AB642008A49BD /* LYUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,18 +614,17 @@
 			baseConfigurationReference = 9AAE5E3DC19A5A8983EEF0D7 /* Pods-BaseOCIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YBVA5HWVA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseOCIOS/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseOCIOS/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseOCIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypf.app.BaseOCIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -739,17 +634,16 @@
 			baseConfigurationReference = 376900F29AF4AF0FE37CA406 /* Pods-BaseOCIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YBVA5HWVA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = BaseOCIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypf.app.BaseOCIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
