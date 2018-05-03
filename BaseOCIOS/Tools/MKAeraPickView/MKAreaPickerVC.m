@@ -96,19 +96,19 @@
     
     [_btnBGView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self.view);
-        make.bottom.equalTo(self->_pickerView.mas_top);
+        make.bottom.equalTo(self.pickerView.mas_top);
         make.height.mas_equalTo(APPWidth * 0.096);  //36
     }];
     
     [_cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.equalTo(_btnBGView);
+        make.centerY.equalTo(self.btnBGView);
         make.left.equalTo(self.view).offset(APPWidth * 0.048);  //18
         make.height.mas_equalTo(APPWidth * 0.08);   //30
         make.width.mas_equalTo(APPWidth * 0.12);    //45
     }];
     
     [_doneBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.equalTo(_btnBGView);
+        make.centerY.equalTo(self.btnBGView);
         make.right.equalTo(self.view).offset(- APPWidth * 0.048);  //18
         make.height.mas_equalTo(APPWidth * 0.08);   //30
         make.width.mas_equalTo(APPWidth * 0.12);    //45

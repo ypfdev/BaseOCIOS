@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E5A1B9965EF3F2DC6D6C3106 /* libPods-BaseOCIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2BA27334771D5D50859149 /* libPods-BaseOCIOS.a */; };
-		EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */; };
-		EDA7918E209AB2CA008A49BD /* MKQRCodeScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */; };
-		EDA7918F209AB2CA008A49BD /* MKMovieRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */; };
 		EDA79190209AB2CA008A49BD /* MKDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7915A209AB2C9008A49BD /* MKDatePickerVC.m */; };
 		EDA79191209AB2CA008A49BD /* MKDatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */; };
 		EDA79192209AB2CA008A49BD /* MKPickViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */; };
@@ -49,12 +46,6 @@
 		376900F29AF4AF0FE37CA406 /* Pods-BaseOCIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseOCIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseOCIOS/Pods-BaseOCIOS.release.xcconfig"; sourceTree = "<group>"; };
 		9AAE5E3DC19A5A8983EEF0D7 /* Pods-BaseOCIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseOCIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseOCIOS/Pods-BaseOCIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2BA27334771D5D50859149 /* libPods-BaseOCIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseOCIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDA79153209AB2C9008A49BD /* MKQRCodeScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQRCodeScaner.h; sourceTree = "<group>"; };
-		EDA79154209AB2C9008A49BD /* MKPhotoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPhotoRecorder.h; sourceTree = "<group>"; };
-		EDA79155209AB2C9008A49BD /* MKMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMovieRecorder.h; sourceTree = "<group>"; };
-		EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPhotoRecorder.m; sourceTree = "<group>"; };
-		EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQRCodeScaner.m; sourceTree = "<group>"; };
-		EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMovieRecorder.m; sourceTree = "<group>"; };
 		EDA7915A209AB2C9008A49BD /* MKDatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDatePickerVC.m; sourceTree = "<group>"; };
 		EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKDatePickerVC.xib; sourceTree = "<group>"; };
 		EDA7915C209AB2C9008A49BD /* MKDatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDatePickerVC.h; sourceTree = "<group>"; };
@@ -212,24 +203,10 @@
 			children = (
 				EDA79164209AB2C9008A49BD /* MKAdditions */,
 				EDA79182209AB2CA008A49BD /* MKAeraPickView */,
-				EDA79152209AB2C9008A49BD /* MKCameraTools */,
 				EDA79159209AB2C9008A49BD /* MKDatePicker */,
 				EDA7915D209AB2C9008A49BD /* MKPickView */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		EDA79152209AB2C9008A49BD /* MKCameraTools */ = {
-			isa = PBXGroup;
-			children = (
-				EDA79153209AB2C9008A49BD /* MKQRCodeScaner.h */,
-				EDA79154209AB2C9008A49BD /* MKPhotoRecorder.h */,
-				EDA79155209AB2C9008A49BD /* MKMovieRecorder.h */,
-				EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */,
-				EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */,
-				EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */,
-			);
-			path = MKCameraTools;
 			sourceTree = "<group>";
 		};
 		EDA79159209AB2C9008A49BD /* MKDatePicker */ = {
@@ -460,7 +437,6 @@
 				EDA791A4209AB2CA008A49BD /* CityModel.m in Sources */,
 				EDA791A5209AB2CA008A49BD /* DistrictModel.m in Sources */,
 				EDE3475D2092CD6F008B7F3A /* HomeVC.m in Sources */,
-				EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */,
 				EDA7919A209AB2CA008A49BD /* UIScreen+MKAddition.m in Sources */,
 				EDA791A2209AB2CA008A49BD /* NSArray+Log.m in Sources */,
 				EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */,
@@ -471,8 +447,6 @@
 				EDA7919D209AB2CA008A49BD /* NSArray+MKAddition.m in Sources */,
 				EDA7919C209AB2CA008A49BD /* NSString+MKAddition.m in Sources */,
 				EDA791A1209AB2CA008A49BD /* UIViewController+MKAddition.m in Sources */,
-				EDA7918F209AB2CA008A49BD /* MKMovieRecorder.m in Sources */,
-				EDA7918E209AB2CA008A49BD /* MKQRCodeScaner.m in Sources */,
 				EDA791A6209AB2CA008A49BD /* ProvinceModel.m in Sources */,
 				EDE347632092CD8A008B7F3A /* MeVC.m in Sources */,
 				EDA791A0209AB2CA008A49BD /* UIButton+MKAddition.m in Sources */,
@@ -621,7 +595,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseOCIOS/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseOCIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypf.app.BaseOCIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -640,7 +617,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = BaseOCIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ypf.app.BaseOCIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
