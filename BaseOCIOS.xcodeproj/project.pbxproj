@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		E5A1B9965EF3F2DC6D6C3106 /* libPods-BaseOCIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2BA27334771D5D50859149 /* libPods-BaseOCIOS.a */; };
+		EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */; };
+		EDA7918E209AB2CA008A49BD /* MKQRCodeScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */; };
+		EDA7918F209AB2CA008A49BD /* MKMovieRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */; };
+		EDA79190209AB2CA008A49BD /* MKDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7915A209AB2C9008A49BD /* MKDatePickerVC.m */; };
+		EDA79191209AB2CA008A49BD /* MKDatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */; };
+		EDA79192209AB2CA008A49BD /* MKPickViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */; };
+		EDA79193209AB2CA008A49BD /* MKPickViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */; };
+		EDA79194209AB2CA008A49BD /* MKLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79163209AB2C9008A49BD /* MKLocationManager.m */; };
+		EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79167209AB2C9008A49BD /* UIImage+HCImage.m */; };
+		EDA79196209AB2CA008A49BD /* UIColor+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7916A209AB2C9008A49BD /* UIColor+MKAddition.m */; };
+		EDA79197209AB2CA008A49BD /* UIView+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7916D209AB2C9008A49BD /* UIView+MKAddition.m */; };
+		EDA79198209AB2CA008A49BD /* UILabel+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7916F209AB2C9008A49BD /* UILabel+MKAddition.m */; };
+		EDA79199209AB2CA008A49BD /* MKStandardClickAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79170209AB2C9008A49BD /* MKStandardClickAreaButton.m */; };
+		EDA7919A209AB2CA008A49BD /* UIScreen+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79173209AB2C9008A49BD /* UIScreen+MKAddition.m */; };
+		EDA7919B209AB2CA008A49BD /* UIImage+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79174209AB2C9008A49BD /* UIImage+MKAddition.m */; };
+		EDA7919C209AB2CA008A49BD /* NSString+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79175209AB2C9008A49BD /* NSString+MKAddition.m */; };
+		EDA7919D209AB2CA008A49BD /* NSArray+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79177209AB2C9008A49BD /* NSArray+MKAddition.m */; };
+		EDA7919E209AB2CA008A49BD /* NSObject+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79178209AB2C9008A49BD /* NSObject+MKAddition.m */; };
+		EDA7919F209AB2CA008A49BD /* NSAttributedString+MKAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7917B209AB2C9008A49BD /* NSAttributedString+MKAdditon.m */; };
+		EDA791A0209AB2CA008A49BD /* UIButton+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7917C209AB2C9008A49BD /* UIButton+MKAddition.m */; };
+		EDA791A1209AB2CA008A49BD /* UIViewController+MKAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7917D209AB2C9008A49BD /* UIViewController+MKAddition.m */; };
+		EDA791A2209AB2CA008A49BD /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7917F209AB2C9008A49BD /* NSArray+Log.m */; };
+		EDA791A3209AB2CA008A49BD /* MKAreaPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79184209AB2CA008A49BD /* MKAreaPickerVC.m */; };
+		EDA791A4209AB2CA008A49BD /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79185209AB2CA008A49BD /* CityModel.m */; };
+		EDA791A5209AB2CA008A49BD /* DistrictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79188209AB2CA008A49BD /* DistrictModel.m */; };
+		EDA791A6209AB2CA008A49BD /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA79189209AB2CA008A49BD /* ProvinceModel.m */; };
+		EDA791A7209AB2CA008A49BD /* region.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA7918B209AB2CA008A49BD /* region.json */; };
+		EDA791A8209AB2CA008A49BD /* MKAreaPickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA7918C209AB2CA008A49BD /* MKAreaPickerVC.xib */; };
 		EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE347432092CBD6008B7F3A /* AppDelegate.m */; };
 		EDE3474C2092CBD6008B7F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474B2092CBD6008B7F3A /* Assets.xcassets */; };
 		EDE3474F2092CBD6008B7F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3474D2092CBD6008B7F3A /* LaunchScreen.storyboard */; };
@@ -23,6 +51,59 @@
 		9AAE5E3DC19A5A8983EEF0D7 /* Pods-BaseOCIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseOCIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseOCIOS/Pods-BaseOCIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2BA27334771D5D50859149 /* libPods-BaseOCIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseOCIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1FE0062092D68300306089 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EDA79153209AB2C9008A49BD /* MKQRCodeScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQRCodeScaner.h; sourceTree = "<group>"; };
+		EDA79154209AB2C9008A49BD /* MKPhotoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPhotoRecorder.h; sourceTree = "<group>"; };
+		EDA79155209AB2C9008A49BD /* MKMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMovieRecorder.h; sourceTree = "<group>"; };
+		EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPhotoRecorder.m; sourceTree = "<group>"; };
+		EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQRCodeScaner.m; sourceTree = "<group>"; };
+		EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMovieRecorder.m; sourceTree = "<group>"; };
+		EDA7915A209AB2C9008A49BD /* MKDatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDatePickerVC.m; sourceTree = "<group>"; };
+		EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKDatePickerVC.xib; sourceTree = "<group>"; };
+		EDA7915C209AB2C9008A49BD /* MKDatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDatePickerVC.h; sourceTree = "<group>"; };
+		EDA7915E209AB2C9008A49BD /* MKPickViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPickViewVC.h; sourceTree = "<group>"; };
+		EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPickViewVC.m; sourceTree = "<group>"; };
+		EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKPickViewVC.xib; sourceTree = "<group>"; };
+		EDA79162209AB2C9008A49BD /* MKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLocationManager.h; sourceTree = "<group>"; };
+		EDA79163209AB2C9008A49BD /* MKLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLocationManager.m; sourceTree = "<group>"; };
+		EDA79165209AB2C9008A49BD /* NSArray+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MKAddition.h"; sourceTree = "<group>"; };
+		EDA79166209AB2C9008A49BD /* NSString+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKAddition.h"; sourceTree = "<group>"; };
+		EDA79167209AB2C9008A49BD /* UIImage+HCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HCImage.m"; sourceTree = "<group>"; };
+		EDA79168209AB2C9008A49BD /* UIImage+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MKAddition.h"; sourceTree = "<group>"; };
+		EDA79169209AB2C9008A49BD /* UIButton+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MKAddition.h"; sourceTree = "<group>"; };
+		EDA7916A209AB2C9008A49BD /* UIColor+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MKAddition.m"; sourceTree = "<group>"; };
+		EDA7916B209AB2C9008A49BD /* NSAttributedString+MKAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MKAdditon.h"; sourceTree = "<group>"; };
+		EDA7916C209AB2C9008A49BD /* MKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdditions.h; sourceTree = "<group>"; };
+		EDA7916D209AB2C9008A49BD /* UIView+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAddition.m"; sourceTree = "<group>"; };
+		EDA7916E209AB2C9008A49BD /* NSObject+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKAddition.h"; sourceTree = "<group>"; };
+		EDA7916F209AB2C9008A49BD /* UILabel+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79170209AB2C9008A49BD /* MKStandardClickAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStandardClickAreaButton.m; sourceTree = "<group>"; };
+		EDA79171209AB2C9008A49BD /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		EDA79172209AB2C9008A49BD /* UIViewController+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MKAddition.h"; sourceTree = "<group>"; };
+		EDA79173209AB2C9008A49BD /* UIScreen+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79174209AB2C9008A49BD /* UIImage+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79175209AB2C9008A49BD /* NSString+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79176209AB2C9008A49BD /* UIImage+HCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HCImage.h"; sourceTree = "<group>"; };
+		EDA79177209AB2C9008A49BD /* NSArray+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79178209AB2C9008A49BD /* NSObject+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKAddition.m"; sourceTree = "<group>"; };
+		EDA79179209AB2C9008A49BD /* UIView+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MKAddition.h"; sourceTree = "<group>"; };
+		EDA7917A209AB2C9008A49BD /* UIColor+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MKAddition.h"; sourceTree = "<group>"; };
+		EDA7917B209AB2C9008A49BD /* NSAttributedString+MKAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MKAdditon.m"; sourceTree = "<group>"; };
+		EDA7917C209AB2C9008A49BD /* UIButton+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MKAddition.m"; sourceTree = "<group>"; };
+		EDA7917D209AB2C9008A49BD /* UIViewController+MKAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MKAddition.m"; sourceTree = "<group>"; };
+		EDA7917E209AB2C9008A49BD /* UIScreen+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+MKAddition.h"; sourceTree = "<group>"; };
+		EDA7917F209AB2C9008A49BD /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		EDA79180209AB2C9008A49BD /* MKStandardClickAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStandardClickAreaButton.h; sourceTree = "<group>"; };
+		EDA79181209AB2C9008A49BD /* UILabel+MKAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MKAddition.h"; sourceTree = "<group>"; };
+		EDA79183209AB2CA008A49BD /* DistrictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictModel.h; sourceTree = "<group>"; };
+		EDA79184209AB2CA008A49BD /* MKAreaPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAreaPickerVC.m; sourceTree = "<group>"; };
+		EDA79185209AB2CA008A49BD /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		EDA79186209AB2CA008A49BD /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		EDA79187209AB2CA008A49BD /* MKAreaPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAreaPickerVC.h; sourceTree = "<group>"; };
+		EDA79188209AB2CA008A49BD /* DistrictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictModel.m; sourceTree = "<group>"; };
+		EDA79189209AB2CA008A49BD /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
+		EDA7918A209AB2CA008A49BD /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		EDA7918B209AB2CA008A49BD /* region.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = region.json; sourceTree = "<group>"; };
+		EDA7918C209AB2CA008A49BD /* MKAreaPickerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKAreaPickerVC.xib; sourceTree = "<group>"; };
 		EDE3473F2092CBD6008B7F3A /* BaseOCIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseOCIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE347422092CBD6008B7F3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDE347432092CBD6008B7F3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,8 +214,109 @@
 		EDA79151209AA844008A49BD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EDA79164209AB2C9008A49BD /* MKAdditions */,
+				EDA79182209AB2CA008A49BD /* MKAeraPickView */,
+				EDA79152209AB2C9008A49BD /* MKCameraTools */,
+				EDA79159209AB2C9008A49BD /* MKDatePicker */,
+				EDA79161209AB2C9008A49BD /* MKLocation */,
+				EDA7915D209AB2C9008A49BD /* MKPickView */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		EDA79152209AB2C9008A49BD /* MKCameraTools */ = {
+			isa = PBXGroup;
+			children = (
+				EDA79153209AB2C9008A49BD /* MKQRCodeScaner.h */,
+				EDA79154209AB2C9008A49BD /* MKPhotoRecorder.h */,
+				EDA79155209AB2C9008A49BD /* MKMovieRecorder.h */,
+				EDA79156209AB2C9008A49BD /* MKPhotoRecorder.m */,
+				EDA79157209AB2C9008A49BD /* MKQRCodeScaner.m */,
+				EDA79158209AB2C9008A49BD /* MKMovieRecorder.m */,
+			);
+			path = MKCameraTools;
+			sourceTree = "<group>";
+		};
+		EDA79159209AB2C9008A49BD /* MKDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7915A209AB2C9008A49BD /* MKDatePickerVC.m */,
+				EDA7915B209AB2C9008A49BD /* MKDatePickerVC.xib */,
+				EDA7915C209AB2C9008A49BD /* MKDatePickerVC.h */,
+			);
+			path = MKDatePicker;
+			sourceTree = "<group>";
+		};
+		EDA7915D209AB2C9008A49BD /* MKPickView */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7915E209AB2C9008A49BD /* MKPickViewVC.h */,
+				EDA7915F209AB2C9008A49BD /* MKPickViewVC.m */,
+				EDA79160209AB2C9008A49BD /* MKPickViewVC.xib */,
+			);
+			path = MKPickView;
+			sourceTree = "<group>";
+		};
+		EDA79161209AB2C9008A49BD /* MKLocation */ = {
+			isa = PBXGroup;
+			children = (
+				EDA79162209AB2C9008A49BD /* MKLocationManager.h */,
+				EDA79163209AB2C9008A49BD /* MKLocationManager.m */,
+			);
+			path = MKLocation;
+			sourceTree = "<group>";
+		};
+		EDA79164209AB2C9008A49BD /* MKAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				EDA79165209AB2C9008A49BD /* NSArray+MKAddition.h */,
+				EDA79166209AB2C9008A49BD /* NSString+MKAddition.h */,
+				EDA79167209AB2C9008A49BD /* UIImage+HCImage.m */,
+				EDA79168209AB2C9008A49BD /* UIImage+MKAddition.h */,
+				EDA79169209AB2C9008A49BD /* UIButton+MKAddition.h */,
+				EDA7916A209AB2C9008A49BD /* UIColor+MKAddition.m */,
+				EDA7916B209AB2C9008A49BD /* NSAttributedString+MKAdditon.h */,
+				EDA7916C209AB2C9008A49BD /* MKAdditions.h */,
+				EDA7916D209AB2C9008A49BD /* UIView+MKAddition.m */,
+				EDA7916E209AB2C9008A49BD /* NSObject+MKAddition.h */,
+				EDA7916F209AB2C9008A49BD /* UILabel+MKAddition.m */,
+				EDA79170209AB2C9008A49BD /* MKStandardClickAreaButton.m */,
+				EDA79171209AB2C9008A49BD /* NSArray+Log.h */,
+				EDA79172209AB2C9008A49BD /* UIViewController+MKAddition.h */,
+				EDA79173209AB2C9008A49BD /* UIScreen+MKAddition.m */,
+				EDA79174209AB2C9008A49BD /* UIImage+MKAddition.m */,
+				EDA79175209AB2C9008A49BD /* NSString+MKAddition.m */,
+				EDA79176209AB2C9008A49BD /* UIImage+HCImage.h */,
+				EDA79177209AB2C9008A49BD /* NSArray+MKAddition.m */,
+				EDA79178209AB2C9008A49BD /* NSObject+MKAddition.m */,
+				EDA79179209AB2C9008A49BD /* UIView+MKAddition.h */,
+				EDA7917A209AB2C9008A49BD /* UIColor+MKAddition.h */,
+				EDA7917B209AB2C9008A49BD /* NSAttributedString+MKAdditon.m */,
+				EDA7917C209AB2C9008A49BD /* UIButton+MKAddition.m */,
+				EDA7917D209AB2C9008A49BD /* UIViewController+MKAddition.m */,
+				EDA7917E209AB2C9008A49BD /* UIScreen+MKAddition.h */,
+				EDA7917F209AB2C9008A49BD /* NSArray+Log.m */,
+				EDA79180209AB2C9008A49BD /* MKStandardClickAreaButton.h */,
+				EDA79181209AB2C9008A49BD /* UILabel+MKAddition.h */,
+			);
+			path = MKAdditions;
+			sourceTree = "<group>";
+		};
+		EDA79182209AB2CA008A49BD /* MKAeraPickView */ = {
+			isa = PBXGroup;
+			children = (
+				EDA79183209AB2CA008A49BD /* DistrictModel.h */,
+				EDA79184209AB2CA008A49BD /* MKAreaPickerVC.m */,
+				EDA79185209AB2CA008A49BD /* CityModel.m */,
+				EDA79186209AB2CA008A49BD /* ProvinceModel.h */,
+				EDA79187209AB2CA008A49BD /* MKAreaPickerVC.h */,
+				EDA79188209AB2CA008A49BD /* DistrictModel.m */,
+				EDA79189209AB2CA008A49BD /* ProvinceModel.m */,
+				EDA7918A209AB2CA008A49BD /* CityModel.h */,
+				EDA7918B209AB2CA008A49BD /* region.json */,
+				EDA7918C209AB2CA008A49BD /* MKAreaPickerVC.xib */,
+			);
+			path = MKAeraPickView;
 			sourceTree = "<group>";
 		};
 		EDE347362092CBD6008B7F3A = {
@@ -223,8 +405,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA79193209AB2CA008A49BD /* MKPickViewVC.xib in Resources */,
 				EDE3474F2092CBD6008B7F3A /* LaunchScreen.storyboard in Resources */,
 				EDE3474C2092CBD6008B7F3A /* Assets.xcassets in Resources */,
+				EDA791A8209AB2CA008A49BD /* MKAreaPickerVC.xib in Resources */,
+				EDA79191209AB2CA008A49BD /* MKDatePickerVC.xib in Resources */,
+				EDA791A7209AB2CA008A49BD /* region.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +442,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA79197209AB2CA008A49BD /* UIView+MKAddition.m in Sources */,
 				EDE3475A2092CCFC008B7F3A /* TabBarC.m in Sources */,
+				EDA79192209AB2CA008A49BD /* MKPickViewVC.m in Sources */,
+				EDA7919F209AB2CA008A49BD /* NSAttributedString+MKAdditon.m in Sources */,
+				EDA791A4209AB2CA008A49BD /* CityModel.m in Sources */,
+				EDA791A5209AB2CA008A49BD /* DistrictModel.m in Sources */,
 				EDE3475D2092CD6F008B7F3A /* HomeVC.m in Sources */,
+				EDA7918D209AB2CA008A49BD /* MKPhotoRecorder.m in Sources */,
+				EDA7919A209AB2CA008A49BD /* UIScreen+MKAddition.m in Sources */,
+				EDA791A2209AB2CA008A49BD /* NSArray+Log.m in Sources */,
+				EDA79195209AB2CA008A49BD /* UIImage+HCImage.m in Sources */,
+				EDA791A3209AB2CA008A49BD /* MKAreaPickerVC.m in Sources */,
 				EDE347522092CBD6008B7F3A /* main.m in Sources */,
+				EDA79199209AB2CA008A49BD /* MKStandardClickAreaButton.m in Sources */,
 				EDE347602092CD7E008B7F3A /* CartVC.m in Sources */,
+				EDA79194209AB2CA008A49BD /* MKLocationManager.m in Sources */,
+				EDA7919D209AB2CA008A49BD /* NSArray+MKAddition.m in Sources */,
+				EDA7919C209AB2CA008A49BD /* NSString+MKAddition.m in Sources */,
+				EDA791A1209AB2CA008A49BD /* UIViewController+MKAddition.m in Sources */,
+				EDA7918F209AB2CA008A49BD /* MKMovieRecorder.m in Sources */,
+				EDA7918E209AB2CA008A49BD /* MKQRCodeScaner.m in Sources */,
+				EDA791A6209AB2CA008A49BD /* ProvinceModel.m in Sources */,
 				EDE347632092CD8A008B7F3A /* MeVC.m in Sources */,
+				EDA791A0209AB2CA008A49BD /* UIButton+MKAddition.m in Sources */,
+				EDA79198209AB2CA008A49BD /* UILabel+MKAddition.m in Sources */,
+				EDA79196209AB2CA008A49BD /* UIColor+MKAddition.m in Sources */,
+				EDA7919B209AB2CA008A49BD /* UIImage+MKAddition.m in Sources */,
+				EDA7919E209AB2CA008A49BD /* NSObject+MKAddition.m in Sources */,
+				EDA79190209AB2CA008A49BD /* MKDatePickerVC.m in Sources */,
 				EDE347442092CBD6008B7F3A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
