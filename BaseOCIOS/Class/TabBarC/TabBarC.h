@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabBarC.h
 //  BaseOCIOS
 //
 //  Created by YPF on 2018/4/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TabBarC : UITabBarController
 
 @end
-

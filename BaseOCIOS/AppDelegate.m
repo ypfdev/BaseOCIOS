@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"sss");
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    TabBarC *tabBarC = [[TabBarC alloc]init];
+//    _window.rootViewController = [[TabBarC alloc]init];
+    self.window.rootViewController = tabBarC;
+    self.window.backgroundColor = [UIColor yellowColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
